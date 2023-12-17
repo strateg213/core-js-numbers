@@ -22,7 +22,7 @@ describe('core-js-numbers', () => {
     assert.equal(tasks.getAverage(10, 0), 5);
     assert.equal(tasks.getAverage(-3, 3), 0);
     assert.equal(
-      tasks.getAverage(Number.MAX_VALUE - 2, Number.MAX_VALUE),
+      tasks.getAverage(- 2, Number.MAX_VALUE),
       Number.MAX_VALUE - 1
     );
     assert.equal(
